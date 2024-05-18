@@ -93,6 +93,7 @@ main p{
   text-align: justify;
   text-indent: 30px;/*Espaçamento de primeira linha de parágrafo*/
   margin: 15px 0;
+  line-height: 120%;
 }
 
 main img{
@@ -121,6 +122,6 @@ aside{
   padding: 20px 0;
 }
 
-aside > ul{
+ ul, ol{
   list-style-position: inside;/*Posição do marcador da lista*/
 }
